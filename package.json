@@ -1,0 +1,14 @@
+{
+  "name": "playwright-test-demo",
+  "version": "1.0.0",
+  "description": "Sample Playwright project for interview showcase",
+  "scripts": {
+    "test": "npx playwright test",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}
